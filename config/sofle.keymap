@@ -214,6 +214,10 @@
 &none  &kp Z  &kp X  &kp C  &kp V  &kp B  &none               &none      &kp N  &kp M  &kp COMMA  &kp DOT  &kp SEMICOLON  &none
               &none  &none  &none  &mo 2  &qt LSHIFT SPACE    &kp SPACE  &mo 1  &none  &none
             >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_UP>,
+                <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         // Numbers and high frequency symbols
